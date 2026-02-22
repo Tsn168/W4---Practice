@@ -28,7 +28,7 @@ class DownloadsScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(height: 16),
+          const SizedBox(height: 16),
           Text(
             "Downloads",
             style: AppTextStyles.heading.copyWith(
@@ -36,9 +36,9 @@ class DownloadsScreen extends StatelessWidget {
             ),
           ),
 
-          SizedBox(height: 50),
+          const SizedBox(height: 50),
 
-          // Display all download tiles
+          // Display all Download tiles
           Expanded(
             child: ListView(
               children: controllers
