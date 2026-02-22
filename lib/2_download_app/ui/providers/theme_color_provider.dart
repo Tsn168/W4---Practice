@@ -12,3 +12,4 @@ enum ThemeColor {
 }
 
 ThemeColor currentThemeColor = ThemeColor.blue;
+// final themeColorProvider = StateNotifier<ThemeColor>(ThemeColor.blue);
